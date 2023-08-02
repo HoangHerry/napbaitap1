@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+.form_bt1{
+    height: 500px;
+    width: 500px;
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .title2{
+    margin: 15px 0px;
+  }
+  .img_blackpink{
+    width: 100%;
+    height: 400px;  
+  }
+  .text{
+    color: rgb(156, 158, 158);
+  }
+  .btn_more{
+    color: white;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-radius: 2px;
+    border: 2px solid aqua;
+    margin-top: 15px;
+  }
+  
+
+
+  
+/*Bt2*/
+  .form_review{
+    margin-top: 1200px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 800px;
+    width:  1000px;
+    height: 300px;
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: nowrap;
+
+  }
+  .content_img{
+    flex: 0 0 30%;
+    background-color: aqua;
+  }
+  .content{
+    flex: 1;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 25px;
+    text-align: justify;
+
+  }
+  .img_btec{
+    height: 100%;
+    width: 100%;
+  }
+  
+.title_btec{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content_btec{
+    color:rgb(89, 90, 90);
+    margin-bottom: 30px;
+}
+.title_btec{
+    margin-bottom: 15px;
+}
+.btn_btec{
+    background-color: #ccc ;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
